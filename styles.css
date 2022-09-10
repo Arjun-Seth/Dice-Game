@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #2e3238;
+}
+
+h1 {
+  margin: 20px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #008ee1;
+}
+
+p {
+  font-size: 3rem;
+  color: #008ee1;
+  font-family: "Dancing Script", cursive;
+}
+
+img {
+  width: 50%;
+}
+
+button {
+  padding: 24px 72px;
+  background-color: #008ee1;
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-weight: 500;
+
+  position: absolute;
+  top: 450px;
+  left: 670px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+footer {
+  margin-top: 3%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    margin-top: 50px;
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .dice {
+    text-align: center;
+    margin-top: 22px;
+    display: inline-block;
+    width: 45%;
+  }
+
+  img {
+    width: 75%;
+  }
+
+  button {
+    position: absolute;
+    top: 450px;
+    left: 130px;
+    padding: 16px 48px;
+    background-color: #008ee1;
+    font-size: 1.7rem;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-weight: 500;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    /* width: 80%; */
+  }
+
+  footer{
+    margin-top: 58%;
+  }
+}
