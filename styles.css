@@ -87,7 +87,7 @@ footer {
   button {
     position: absolute;
     top: 450px;
-    left: 130px;
+    left: 10%;
     padding: 16px 48px;
     background-color: #008ee1;
     font-size: 1.7rem;
@@ -99,7 +99,7 @@ footer {
     outline: none;
     cursor: pointer;
     border-radius: 100px;
-    /* width: 80%; */
+    width: 80%;
   }
 
   footer{
